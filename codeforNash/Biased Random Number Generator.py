@@ -30,12 +30,12 @@ if __name__ == "__main__":
     min_limit = int(input("Enter Lower value of range\n"))
     max_limit =int(input("Enter Upper value of range\n"))
     mid_val = (min_limit + max_limit) / 2
-    # random number generating 73 times upper values
+   
     while len(max_list) != 73:
         val = int(obj.lcg_to_range(mid_val+1, max_limit+1))
         max_list.append(val)
         continue
-    # random number generating 27 times lower values
+    
     while len(min_list) != 27:
         val = int(obj.lcg_to_range(min_limit,mid_val-1))
         min_list.append(val)
