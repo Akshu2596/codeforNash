@@ -1,1 +1,1 @@
-# codeforNash
+# RandomNumberGenerator
